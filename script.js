@@ -1,6 +1,7 @@
-var lista = document.getElementById("lista");
-var osoby = ["Anna", "Tomasz", "Antoni", "Monika", "Krzysztof"];
+var wyslij = document.getElementById("wyslij");
 
-for (var val of osoby){
-    lista.innerHTML += "<li>" + val + "</li>";
-}
+wyslij.addEventListener("click", function (e){
+    e.preventDefault();
+    var imie = document.getElementById("imie").value;
+    console.log(imie);
+});
