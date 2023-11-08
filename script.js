@@ -1,13 +1,8 @@
-var zm = "Adam";
+var funkcja = function (a, b) {
+    return a + b;
+} ;
 
-
-if (typeof(zm) == "number"){
-    console.log("Zmienna " + zm + " jest to typ number!" );
-}else if (typeof(zm) == "string"){
-    console.log("Zmienna " + zm + " jest to typ string!" );
-}else{
-    console.log("Zmienna " + zm + " ma taki typ danych: " + typeof(zm) );
-}
+console.log(funkcja(2, 2));
 
 
 
